@@ -33,6 +33,7 @@ function destroyBoxes() {
     for (let allNewBoxe of allNewBoxes) {
         boxes.removeChild(allNewBoxe);
     }
+    startBoxSize = 30;
 }
 
 function getRandomHexColor() {
